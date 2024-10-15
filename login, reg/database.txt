@@ -1,0 +1,7 @@
+CREATE DATABASE stylecorner;
+
+CREATE TABLE users(
+    id INT NULL AUTO_INCREMENT,
+    username VARCHAR(255),
+    password VARCHAR(255),
+    PRIMARY KEY(id));

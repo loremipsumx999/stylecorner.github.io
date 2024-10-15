@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../img/media/icon.png" rel="icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In || Register</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">StyleCorner</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="login">
+                <a href="index.html"><img src="../img/media/login.png"></a>
+                <a href="#"><img src="../img/media/heart.png"></a>
+                <a href="#"><img src="../img/media/cart.png"></a>
+            </div>         
+        </nav>
+    </header>
+
+    <form id="loginForm">
+        <h2>Welcome to StyleCorner!</h2>
+            <div class="inputContainer">
+                <label for="username"></label>
+                <input type="text" id = "username" placeholder = "Username" required>
+
+                <label for="password"></label>
+                <input type="password" id="password" placeholder = "Password" required>
+                <!-- <input type="checkbox" id="password" onclick="myFunction()"> -->
+            </div>
+
+            <button id="login" type="button" class="button login__submit"><span>Log In</span></button>
+
+            <button id="submit" type="submit" class="button registration"><span>Register</span></button>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
